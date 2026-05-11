@@ -27,7 +27,7 @@ author:
   pronouns         :
   bio              : "PhD candidate, Escola Politécnica · USP. Partner & Lead Data Engineer at LyfeOS. Functional analysis, PDEs, VEM, ML for PDEs."
   location         : "São Paulo, Brazil"
-  employer         : "Escola Politécnica, Universidade de São Paulo"
+  employer         : "Escola Politécnica, USP"
   uri              :
   email            : "paulo.enabe@usp.br"
 
@@ -124,7 +124,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 

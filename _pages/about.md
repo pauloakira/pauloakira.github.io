@@ -8,30 +8,23 @@ redirect_from:
 ---
 
 I am a fourth-year PhD candidate at the **Escola Politécnica of the University of
-São Paulo (USP)**, and currently work as **Partner and Lead Data Engineer at LyfeOS**.
-I also teach **Computational Mechanics** at **Insper**.
+São Paulo**, where my work sits at the intersection of functional analysis,
+partial differential equations, numerical methods, and machine learning. I am also
+**Partner and Lead Data & AI Engineer at LyfeOS**, and I teach **Computational
+Mechanics at Insper**.
 
-My primary research areas are **functional analysis** and **PDE analysis**. I use
-Banach-space and variational techniques to study _well-posedness_, _stability_, and
-_error mechanisms_ in PDE models, and I translate these insights into methodology
-for approximation. This perspective supports both the design and analysis of
-numerical schemes — with emphasis on the **Virtual Element Method (VEM)** — and
-theoretical questions in **machine learning for PDEs**, such as inductive bias,
-generalization, and principled training objectives.
+My research is grounded in mathematics — particularly Banach-space methods,
+variational analysis, and the study of well-posedness, stability, and approximation
+mechanisms for PDE models. I am especially interested in how analytical insight
+can inform the design and interpretation of computational methods, including the
+**Virtual Element Method** and learning-based approaches for PDEs.
 
-## Research
-
-- **Functional / PDE analysis.** Variational and Banach-space tools for studying
-  well-posedness, stability, and error structure of PDE models.
-- **Numerical methods for PDEs.** Virtual Element Method (VEM); analysis and
-  implementation of conforming and nonconforming schemes.
-- **Machine learning for PDEs.** Inductive bias of neural surrogates, generalization
-  guarantees, and training objectives grounded in approximation theory.
-
-## Outside academia
-
-At **LyfeOS** I lead Data Engineering and AI/ML R&D — applying the same analytical
-mindset (careful problem framing, principled methodology) to industry problems.
+More broadly, I am drawn to questions where rigorous mathematical structure meets
+modern computation. This includes numerical analysis, scientific machine learning,
+and artificial intelligence — especially topics such as inductive bias,
+generalization, and principled training objectives. Across my academic, teaching,
+and engineering work, I aim to connect theory and implementation in a way that is
+both precise and useful.
 
 ---
 
