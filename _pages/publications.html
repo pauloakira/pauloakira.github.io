@@ -1,36 +1,60 @@
 ---
 layout: archive
-title: "Publications"
+title: "Papers"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+  .papers-list { margin-top: 0.5em; }
 
-{% include base_path %}
+  .paper-year {
+    display: flex;
+    align-items: center;
+    margin: 2.4em 0 1.2em;
+    color: #999;
+    font-size: 0.95em;
+    text-align: center;
+  }
+  .paper-year:first-child { margin-top: 1em; }
+  .paper-year::before, .paper-year::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #ddd;
+  }
+  .paper-year::before { margin-right: 1em; }
+  .paper-year::after  { margin-left: 1em; }
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+  .paper-entry  { margin-bottom: 1.6em; }
+  .paper-title  { font-weight: 700; margin: 0 0 0.15em; line-height: 1.35; color: #222; }
+  .paper-authors{ color: #444; margin: 0 0 0.15em; }
+  .paper-venue  { color: #2e7d32; margin: 0 0 0.15em; }
+  .paper-extras { color: #888; margin: 0; }
+  .paper-extras a { color: #1565c0; text-decoration: none; }
+  .paper-extras a:hover { text-decoration: underline; }
+</style>
+
+<div class="papers-list">
+  {% assign sorted = site.publications | sort: 'date' | reverse %}
+  {% assign current_year = "" %}
+  {% for paper in sorted %}
+    {% assign py = paper.year | default: paper.date | date: "%Y" %}
+    {% if py != current_year %}
+      <div class="paper-year">{{ py }}</div>
+      {% assign current_year = py %}
+    {% endif %}
+    <div class="paper-entry">
+      <p class="paper-title">{{ paper.title }}</p>
+      {% if paper.authors %}<p class="paper-authors">{{ paper.authors }}</p>{% endif %}
+      {% if paper.venue %}<p class="paper-venue">{{ paper.venue }}</p>{% endif %}
+      {% if paper.status or paper.arxiv or paper.doi or paper.link_url %}
+      <p class="paper-extras">
+        {% if paper.status %}{{ paper.status }} {% endif %}
+        {% if paper.arxiv %}<a href="https://arxiv.org/abs/{{ paper.arxiv }}">[arXiv:{{ paper.arxiv }}]</a>{% endif %}
+        {% if paper.doi %} <a href="https://doi.org/{{ paper.doi }}">[DOI]</a>{% endif %}
+        {% if paper.link_url %} <a href="{{ paper.link_url }}">[{{ paper.link_label | default: 'Link' }}]</a>{% endif %}
+      </p>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+    </div>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+</div>
