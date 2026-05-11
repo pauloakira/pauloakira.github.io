@@ -26,7 +26,6 @@ Education
 Complementary Education
 ======
 * **Machine Learning Engineer Nanodegree**, Udacity — _May 2021 – Jul. 2021_
-* **Exchange Program in Engineering**, Shibaura Institute of Technology, Tokyo, Japan — _Mar. 2019 – Jul. 2019_
 
 Experience
 ======
@@ -119,19 +118,6 @@ Skills
 ======
 * **Programming languages**: Python, C/C++, C#, JavaScript
 * **Tools / frameworks**: AWS, MATLAB, Figma, ROS/Gazebo, GitHub, Microsoft Office, Ansys, Abaqus, TensorFlow, PyTorch, MLflow, Optuna, Flask, Pandas, Angular, Node.js, Flutter, Next.js, React, LangChain
-
-Publications
-======
-<ul>
-{% assign pubs = site.publications | sort: 'date' | reverse %}
-{% for post in pubs %}
-  <li>
-    <strong>{{ post.title }}</strong><br/>
-    <span style="opacity:0.85">{{ post.authors }}</span><br/>
-    <em>{{ post.venue }}</em>{% if post.arxiv %} &nbsp;·&nbsp; <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>{% endif %}{% if post.doi %} &nbsp;·&nbsp; <a href="https://doi.org/{{ post.doi }}">DOI</a>{% endif %}
-  </li>
-{% endfor %}
-</ul>
 
 Links
 ======
