@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Paulo Akira"
 title_separator          : "|"
 name                     : &name "Paulo Akira"
-description              : &description "PhD candidate working on machine learning, probability theory, functional analysis, and numerical methods (VEM/FEM)."
+description              : &description "PhD candidate at Escola Politécnica, USP. Functional and PDE analysis, Virtual Element Method, and machine learning for PDEs."
 url                      : https://pauloakira.github.io
 baseurl                  : ""
 repository               : "pauloakira/pauloakira.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Paulo Akira"
   pronouns         :
-  bio              : "Fourth-year PhD candidate. ML, AI, probability, functional analysis, and numerical methods (VEM/FEM)."
-  location         : # e.g. "São Paulo, Brazil"
-  employer         : # e.g. "Universidade de São Paulo"
+  bio              : "PhD candidate, Escola Politécnica · USP. Data & AI Manager at Lyfe. Functional analysis, PDEs, VEM, ML for PDEs."
+  location         : "São Paulo, Brazil"
+  employer         : "Escola Politécnica, Universidade de São Paulo"
   uri              :
   email            : # "you@example.org"
 

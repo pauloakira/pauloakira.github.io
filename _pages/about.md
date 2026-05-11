@@ -7,36 +7,32 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year PhD candidate working at the intersection of **machine learning**,
-**probability theory**, **functional analysis**, and **numerical methods** — with a
-particular focus on the **Virtual Element Method (VEM)** and the **Finite Element
-Method (FEM)**.
+I am a fourth-year PhD candidate at the **Escola Politécnica of the University of
+São Paulo (USP)**, and currently work as **Data & AI Manager at Lyfe**.
 
-My research moves between two complementary directions:
+My primary research areas are **functional analysis** and **PDE analysis**. I use
+Banach-space and variational techniques to study _well-posedness_, _stability_, and
+_error mechanisms_ in PDE models, and I translate these insights into methodology
+for approximation. This perspective supports both the design and analysis of
+numerical schemes — with emphasis on the **Virtual Element Method (VEM)** — and
+theoretical questions in **machine learning for PDEs**, such as inductive bias,
+generalization, and principled training objectives.
 
-- **Mathematical foundations** — probabilistic and functional-analytic tools for
-  studying convergence, stability, and approximation in modern numerical schemes.
-- **Computational methods** — design and implementation of VEM/FEM solvers for
-  problems in computational mechanics and applied science, and the use of machine
-  learning to accelerate or augment them.
+## Research
 
-I am interested in the cross-pollination between rigorous numerical analysis and
-data-driven approaches: how classical PDE solvers can inform ML architectures, and
-how ML can be used to relax assumptions, learn corrections, or guide adaptivity in
-traditional methods.
+- **Functional / PDE analysis.** Variational and Banach-space tools for studying
+  well-posedness, stability, and error structure of PDE models.
+- **Numerical methods for PDEs.** Virtual Element Method (VEM); analysis and
+  implementation of conforming and nonconforming schemes.
+- **Machine learning for PDEs.** Inductive bias of neural surrogates, generalization
+  guarantees, and training objectives grounded in approximation theory.
 
-## Research interests
+## Outside academia
 
-- Virtual Element and Finite Element methods
-- Scientific machine learning (PINNs, neural operators, hybrid solvers)
-- Probability theory and stochastic analysis applied to numerical schemes
-- Functional analysis as a foundation for approximation theory
+At [Lyfe](#) I lead the Data & AI function — applying the same analytical mindset
+(careful problem framing, principled methodology) to industry problems.
 
-## Currently
+---
 
-- _Affiliation:_ TBD — replace in `_config.yml` (`author.employer`).
-- _Advisor:_ TBD.
-- _Contact:_ TBD — set `author.email` in `_config.yml`.
-
-You can find my code on [GitHub](https://github.com/pauloakira) and a list of papers
-on the [Publications](/publications/) page.
+Code on [GitHub](https://github.com/pauloakira) · publications on the
+[Publications](/publications/) page.
