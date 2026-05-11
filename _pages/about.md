@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 I am a fourth-year PhD candidate at the **Escola Politécnica of the University of
-São Paulo (USP)**, and currently work as **Data & AI Manager at Lyfe**.
+São Paulo (USP)**, and currently work as **Partner and Lead Data Engineer at LyfeOS**.
+I also teach **Computational Mechanics** at **Insper**.
 
 My primary research areas are **functional analysis** and **PDE analysis**. I use
 Banach-space and variational techniques to study _well-posedness_, _stability_, and
@@ -29,10 +30,12 @@ generalization, and principled training objectives.
 
 ## Outside academia
 
-At [Lyfe](#) I lead the Data & AI function — applying the same analytical mindset
-(careful problem framing, principled methodology) to industry problems.
+At **LyfeOS** I lead Data Engineering and AI/ML R&D — applying the same analytical
+mindset (careful problem framing, principled methodology) to industry problems.
 
 ---
 
-Code on [GitHub](https://github.com/pauloakira) · publications on the
-[Publications](/publications/) page.
+[GitHub](https://github.com/pauloakira) ·
+[LinkedIn](https://linkedin.com/in/paulo-akira-enabe-732973172) ·
+[Lattes (CNPq)](http://lattes.cnpq.br/0653931190385652) ·
+papers on the [Publications](/publications/) page.

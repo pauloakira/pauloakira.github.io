@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Paulo Akira"
+title                    : "Paulo Akira F. Enabe"
 title_separator          : "|"
-name                     : &name "Paulo Akira"
+name                     : &name "Paulo Akira F. Enabe"
 description              : &description "PhD candidate at Escola Politécnica, USP. Functional and PDE analysis, Virtual Element Method, and machine learning for PDEs."
 url                      : https://pauloakira.github.io
 baseurl                  : ""
@@ -23,13 +23,13 @@ repository               : "pauloakira/pauloakira.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Paulo Akira"
+  name             : "Paulo Akira F. Enabe"
   pronouns         :
-  bio              : "PhD candidate, Escola Politécnica · USP. Data & AI Manager at Lyfe. Functional analysis, PDEs, VEM, ML for PDEs."
+  bio              : "PhD candidate, Escola Politécnica · USP. Partner & Lead Data Engineer at LyfeOS. Functional analysis, PDEs, VEM, ML for PDEs."
   location         : "São Paulo, Brazil"
   employer         : "Escola Politécnica, Universidade de São Paulo"
   uri              :
-  email            : # "you@example.org"
+  email            : "paulo.enabe@usp.br"
 
   # Academic websites
   academia         :
@@ -65,7 +65,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # LinkedIn username (the part after /in/)
+  linkedin         : "paulo-akira-enabe-732973172"
   mastodon         :
   medium           :
   pinterest        :
