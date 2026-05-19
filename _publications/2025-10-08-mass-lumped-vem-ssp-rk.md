@@ -5,7 +5,8 @@ permalink: /publication/2510.06653
 date: 2025-10-08
 year: 2025
 authors: "Paulo Akira F. Enabe, Rodrigo Provasi"
-venue: "Preprint"
+venue: "Journal of Scientific Computing"
+status: "Under review ·"
 arxiv: "2510.06653"
 ---
 
