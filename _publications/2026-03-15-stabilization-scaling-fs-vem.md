@@ -5,7 +5,8 @@ permalink: /publication/2603.07218
 date: 2026-03-15
 year: 2026
 authors: "Paulo Akira F. Enabe, Rodrigo Provasi"
-venue: "Preprint"
+venue: "Computational Mechanics"
+status: "Submitted ·"
 arxiv: "2603.07218"
 ---
 
