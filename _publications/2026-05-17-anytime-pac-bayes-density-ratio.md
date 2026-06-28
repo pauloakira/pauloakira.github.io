@@ -1,11 +1,12 @@
 ---
-title: "Anytime and Difficulty-Adaptive PAC-Bayes for Constrained Density-Ratio Network with Continual Learning Guarantees"
+title: "Anytime PAC-Bayes for Constrained Density-Ratio Networks under Covariate Shift"
 collection: publications
 permalink: /publication/2605.17212
 date: 2026-05-17
 year: 2026
-authors: "Paulo Akira F. Enabe"
-venue: "Preprint"
+authors: "Paulo Akira F. Enabe, Rodrigo Provasi"
+venue: "Journal of Machine Learning Research (JMLR)"
+status: "Submitted ·"
 arxiv: "2605.17212"
 ---
 
